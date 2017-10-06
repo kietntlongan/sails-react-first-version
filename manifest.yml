@@ -1,8 +1,5 @@
 applications:
-- path: .
-  memory: 256M
-  instances: 1
-  domain: eu-gb.mybluemix.net
-  name: Sails + React First Version
+- name: Sails + React First Version
   host: sails-react-first-version
-  disk_quota: 1024M
+  memory: 256M
+  command: node app.js
