@@ -28,8 +28,8 @@
     "cfenv": "1.0.x"
   },
   "scripts": {
-    "debug": "nohup node debug app.js",
-    "start": "nohup node app.js"
+    "debug": "node debug app.js",
+    "start": "node app.js"
   },
   "main": "app.js",
   "repository": {
