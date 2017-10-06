@@ -55,6 +55,12 @@ try {
   }
 }
 
+// cfenv provides access to your Cloud Foundry environment
+// for more info, see: https://www.npmjs.com/package/cfenv
+var cfenv = require('cfenv');
+
+// get the app environment from Cloud Foundry
+var appEnv = cfenv.getAppEnv();
 
 // Start server
 sails.lift(rc('sails'));

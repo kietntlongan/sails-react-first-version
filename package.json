@@ -24,7 +24,8 @@
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
     "sails": "~0.12.14",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "cfenv": "1.0.x"
   },
   "scripts": {
     "debug": "nohup node debug app.js",
