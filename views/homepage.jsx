@@ -5,7 +5,7 @@ import React from 'react'; // can even use ES2015
 
 class HomeComponent extends React.Component {
   render() {
-    return <h1>Hello Sails + React</h1>;
+    return <h1>Hello Sails and React.</h1>;
   }
 }
 
